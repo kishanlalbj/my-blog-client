@@ -1,0 +1,24 @@
+.hero {
+  position: relative;
+  background: var(--primary-color);
+  alt: inherit;
+  background-size: cover;
+  color: white;
+  min-height: 30vh;
+}
+
+.hero-text {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: 'Ephesis', cursive;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25%;
+}

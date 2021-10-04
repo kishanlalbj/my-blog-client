@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+:root {
+  --primary-color: #003953;
+  --secondary-color: white;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +14,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.light {
+  background-color: var(--secondary-color);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }

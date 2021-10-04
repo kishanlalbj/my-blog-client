@@ -1,0 +1,10 @@
+.articles {
+  position: relative;
+  margin: 40px 0px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
